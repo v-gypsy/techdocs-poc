@@ -35,7 +35,9 @@ backend:
 integrations:
   github:
     - host: github.com
-      token: ${token}
+      apiBaseUrl: https://github.com/api/v3
+      rawBaseUrl: https://github.com/raw
+      token: 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
 
 proxy:
   ### Example for how to add a proxy endpoint for the frontend.
