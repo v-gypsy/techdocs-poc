@@ -87,14 +87,7 @@ const routes = (
       path="/tech-radar"
       element={<TechRadarPage width={1500} height={800} />}
     />
-    <Route
-      path="/catalog-import"
-      element={
-        <RequirePermission permission={catalogEntityCreatePermission}>
-          <CatalogImportPage />
-        </RequirePermission>
-      }
-    />
+    <Route path="/catalog-import" element={<CatalogImportPage />} />;
     <Route path="/search" element={<SearchPage />}>
       {searchPage}
     </Route>
