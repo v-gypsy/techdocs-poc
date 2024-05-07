@@ -35,7 +35,6 @@ backend:
 integrations:
   github:
     - host: github.com
-      token: ${token}
 
 proxy:
   ### Example for how to add a proxy endpoint for the frontend.
